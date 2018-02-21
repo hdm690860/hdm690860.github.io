@@ -1,0 +1,233 @@
+<!DOCTYPE  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>联系我</title>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="inco" href="images/favicon.ico" type="image/x-icon">
+<meta name="Description" content="个人网站，展示网站，电商设计，网页设计，平面设计，设计师，前端设计，html5，css3，JavaScript">
+<meta name="Keywords" content="一梦浮生,个人网站,电商设计,美工,网页设计,HTML,CSS,jQurey,JavaScript,作品展示,个人简历网站,设计师" />
+<meta name="author" content="huangdongming,450861564@qq.com">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="renderer" content="webkit">
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<!--<link rel="stylesheet" href="css/sweetalert2.min.css">-->
+<style type="text/css">
+.SenBox .inputname .phcolor, .SenBox .company .phcolor{ color:#999;}
+#Contentform   .error{
+	 border:1px solid red;
+	 color:red;
+	 }
+#attention .error {
+	border:none;
+	}
+		.shake_effect{
+		 	-webkit-animation-name: shake;
+  			animation-name: shake;
+  			-webkit-animation-duration: 1s;
+  			animation-duration: 1s;
+		}
+		@-webkit-keyframes shake {
+		  from, to {
+		    -webkit-transform: translate3d(0, 0, 0);
+		    transform: translate3d(0, 0, 0);
+		  }
+
+		  10%, 30%, 50%, 70%, 90% {
+		    -webkit-transform: translate3d(-10px, 0, 0);
+		    transform: translate3d(-10px, 0, 0);
+		  }
+
+		  20%, 40%, 60%, 80% {
+		    -webkit-transform: translate3d(10px, 0, 0);
+		    transform: translate3d(10px, 0, 0);
+		  }
+		}
+
+		@keyframes shake {
+		  from, to {
+		    -webkit-transform: translate3d(0, 0, 0);
+		    transform: translate3d(0, 0, 0);
+		  }
+
+		  10%, 30%, 50%, 70%, 90% {
+		    -webkit-transform: translate3d(-10px, 0, 0);
+		    transform: translate3d(-10px, 0, 0);
+		  }
+
+		  20%, 40%, 60%, 80% {
+		    -webkit-transform: translate3d(10px, 0, 0);
+		    transform: translate3d(10px, 0, 0);
+		  }
+		}
+		
+</style>
+
+</head>
+
+<body>
+<div id="header">
+  <div class="widthBox">
+   <div class="headerBox">
+    <div class="logo"><a href="#"><img src="images/logo.jpg" alt="LOGO" /></a></div>
+    <ul class="Nav">
+      <li><a  href="index.html">首页</a></li>
+      <li><a  href="works.html">案例</a></li>
+      <li><a  href="about.html">关于</a></li>
+      <li><a class="active" href="#">联系</a><i class="down"></i>  </li>
+    </ul>
+   </div>
+  </div>
+</div>
+<div id="content">
+  <div class="Contactbanner"><h1>联系我</h1><p>CONTACT&nbsp;ME</p></div>
+  <div class="contactBox widthBox clearfix">
+    <div class="ConNum">
+      <ul class="Numlist">
+        <li><h2>01</h2></li>
+        <li><div class="unline"></div></li>
+        <li><h2>02</h2></li>
+        <li><div class="unline"></div></li>
+        <li><h2>03</h2></li>
+        <li><div class="unline"></div></li>
+      </ul>
+    </div>
+    <div class="ConText">
+      <dl>
+        <dt><h3>NAME</h3></dt>
+        <dd><P>黄东明</P></dd>
+        <dt><h3>PHONE</h3></dt>
+        <dd><P class="nummessage">13690125860</P></dd>
+        <dt><h3>E-MAIL</h3></dt>
+        <dd><P class="nummessage">450861564@QQ.COM</P></dd>
+      </dl>
+    </div>
+    <div class="SenMage">
+      <div class="SenBox">
+        <h2>MESSAGE</h2>
+        <iframe name="formsubmit" style="display:none;"> </iframe>
+        <form method="post" action="" id="Contentform"  target="formsubmit">
+          <ul>
+           <li class="inputname clearfix">
+             <input type="text"  placeholder="name" name="name" id="name" class="fl"/>
+             <input type="text"  name="Email" placeholder="e-mail"  id="Email" class="rl"/>
+           </li>
+           <li class="company">
+            <input type="text" 	 name="company" placeholder="company" />
+           </li>
+           <li class="sentext">
+            <textarea name="frommian" id="frommian"></textarea>
+           </li>
+           <li class="send"><input type="submit" value="SEND" id="send" /><span id="attention"></span></li>
+          </ul>
+        </form>
+      </div>
+    </div> 
+   </div>    
+</div>
+
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<!--<script type="text/javascript" src="https://cdn.staticfile.org/jquery/3.1.1/jquery.min.js"></script>-->
+<script type="text/javascript" src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/es6-promise/latest/es6-promise.min.js"></script>-->
+<!--<script src="js/sweetalert2.js"></script>-->
+<script type="text/javascript" src="js/DD_belatedPNG-min.js"></script>
+<script type="text/javascript" src="layer/layer.js"></script>
+<script type="text/javascript">
+window.onload= function()
+{
+DD_belatedPNG.fix(".down,.social");
+}
+$(document).ready(function() {
+	var validator=$("#Contentform").validate({
+		submitHandler:function(form){
+		  form.submit();
+	  validator.resetForm();
+	  $('#Contentform')[0].reset()
+        },    
+		errorPlacement: function(error, element) {  
+	    var Foerror=$("#attention");
+        error.appendTo(Foerror);  
+        },
+		
+	   // debug:true,
+	    rules:{
+		  name:"required",
+		  Email: {
+            required: true,
+            email: true
+                 },
+		  frommian:{
+			 required:true,
+			 minlength: 5,
+			  },
+		   company:"required",
+		  },
+	    messages:{
+		  name:"请输入您的名字 ",
+		  Email:"请输入正确的邮箱地址 ",
+		  company:"请输入公司或个人信息 ",
+		  frommian:{
+			  minlength:"内容长度不能小于 5 个字母 ",
+			  required:"请输入内容 ",},
+			},
+	});
+	$("#send").click(function(){
+	  var valids=  $("#Contentform").valid();
+	  if (valids==false){
+		 $(".SenMage").removeClass('shake_effect')
+		 setTimeout(function()
+	  {	
+	   $(".SenMage").addClass('shake_effect')
+	  },1);  
+		  }
+	  if (valids==true){
+		  layer.alert('感谢您的来信，我会尽快回复', {icon: 1});
+		 //swal('提交成功!', '感谢您的信息，本人会尽快回复', 'success')//.then(
+		 // function(){window.location.reload();}
+		 // );
+		   //$("#Email").attr('value','e-mail');
+			//validator.resetForm();
+	  }
+	//  console.log(valids)
+    });
+   supportPlaceholder='placeholder'in document.createElement('input');
+	//alert(supportPlaceholder);
+    if(!supportPlaceholder){
+	$('input').each(function(){
+		var text= $(this).attr("placeholder");
+		//alert(text);
+		  if($(this).attr("type") == "text"){
+        placeholder($(this));
+      }
+		
+	})
+  }
+
+});
+function placeholder(input){
+   var text= input.attr("placeholder");
+   input.val(text);
+   input.addClass("phcolor")
+      //alert(text)
+	  input.focus(function(){
+		if(input.val()==text){  
+		 input.val("");
+		 input.removeClass("phcolor"); 
+		}
+		  });
+	  input.blur(function(){
+		 var inputText=input.val();
+		 //alert(inputText)
+		 if(inputText==""){
+			 $(this).val(text);
+			 input.addClass("phcolor")
+			 } 
+		  });
+	}
+
+
+</script>
+</body>
+</html>

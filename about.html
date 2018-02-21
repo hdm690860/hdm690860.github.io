@@ -1,0 +1,115 @@
+<!DOCTYPE  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>关于个人</title>
+
+<meta name="Description" content="个人网站，展示网站，电商设计，网页设计，平面设计，设计师，前端设计，html5，css3，JavaScript">
+<meta name="Keywords" content="一梦浮生,个人网站,电商设计,美工,网页设计,HTML,CSS,jQurey,JavaScript,作品展示,个人简历网站,设计师" />
+<meta name="author" content="huangdongming,450861564@qq.com">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="renderer" content="webkit">
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="inco" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+<div id="header">
+  <div class="widthBox">
+   <div class="headerBox">
+    <div class="logo"><a href="#"><img src="images/logo.jpg" alt="LOGO" /></a></div>
+    <ul class="Nav">
+      <li><a  href="index.html">首页</a></li>
+      <li><a  href="works.html">案例</a></li>
+      <li><a class="active" href="#">关于</a><i class="down"></i></li>
+      <li><a href="contact.html">联系</a></li>
+    </ul>
+   </div>
+  </div>
+</div>
+<div id="content">
+  <div class="Aboutbanner"><h1>关于我</h1><p>ABOUT&nbsp;ME</p></div>
+  <div class="widthBox aboutmian">
+    <div class="aboutMe clearfix">
+     <div class="tips"><img src="images/aboutTip.jpg" alt="提示" /></div>
+     <div class="IntroductionBox">
+      <ul class="Introduction">
+       <li><h1>HUANG</h1></li>
+       <li><h1>DONGMING</h1></li>
+       <li><span></span></li>
+       <li><p>作为一位90后设计师，对生活充满热情，对挑战充满向往。设计风格钟爱简约大方的设计，扁平的潮流中，简单中充满细节，大方中弥漫交互，褪去色彩或视界张扬夸张时代，一种科技，时尚，高雅的选择走入人们的视野，在信息爆炸的时代，质量为王，用简约自信的设计，准确又不失美感的作品传递优质有用的信息。</p></li>
+      </ul>
+     </div>
+     <div class="introPic">
+        <img src="images/introPic.jpg" alt="个人形象图" />
+     </div>
+     <div class="colorBox"></div>
+    </div>
+  </div>
+  <div class="aboutPic"><img src="images/aboutMeLo.jpg" width="100%"  alt="咖啡办公图"/></div>
+  <div class="widthBox">
+    <div class="aboutMeLo clearfix">
+    <div class="Introlove">
+     <ul class="Introduction">
+       <li><h1>MY</h1></li>
+       <li><h1>INTEREST</h1></li>
+       <li><span></span></li>
+       <li><p>在互联网与大数据的时代，网站端口呈现越来越被重视，各种充满个性特效的网页出现在人们的视野，各种功能强电商门户网页走进人们的生活，更有各种有趣的社交论坛成为人的习惯，个人对现在各种网页的设计心生向往，希望能从事这方面的工作，业余之下抽出时间
+        来学习了解网络知识，研究HTML/CSS,JS/JQ,PHP/SQL等网页代码。
+       </p></li>
+      </ul>
+    </div>
+    <div class="IntroBor"></div>
+    <div class="introPic1"><img src="images/introPic1.jpg" alt="图片" /></div>
+    </div>
+  </div>       
+  <div class="aboutFooter">
+    <div class="footbor"></div>
+    <div class="footmian">
+     <div class="widthBox">
+      <h2>I’am Social,You can folow me</h2>
+      <div class="footsocial">
+       <a href="http://weibo.com/1885717194/profile?rightmod=1&wvr=6&mod=personinfo" target="_blank" rel="nofollow">
+              <img src="images/icon_xinlang.png" alt="新浪"/></a><a ><img src="images/icon_weixin.png" alt="微信"/>
+            </a>
+            <a href="tencent://message/?uin=450861564&Site=www.xxxxxxx.com.cn&Menu=yes"  alt="点击这里给我发消息" title="点击这里给我发消息" target="_blank">
+               <img src="images/icon_qq.png" alt="QQ"/>
+             </a>
+             <!--<a href="#">
+             <img src="images/icon_pengqun.png" alt="朋友圈"/>
+            </a>
+            <a href="#">
+              <img src="images/icon_baidu.png" alt="百度"/>
+            </a>-->
+            <div class="weixinPic"><img src="images/weixin.png" alt="微信二维码" /></div>
+     </div>
+      <div class="underline"></div>
+      <div class="footer_link"><p>Copyright&copy; 2009-2017 abc.com 版权所有 ICP证：浙B2-20080101</p></div>
+     </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.js"></script>
+<script type="text/javascript" src="js/DD_belatedPNG-min.js"></script>
+
+<script type="text/javascript">
+window.onload= function()
+{
+DD_belatedPNG.fix(".down,.social");
+}
+$(document).ready(function() {
+    	 $(".footsocial a:eq(1)").hover(function(){
+	$(".weixinPic").css('display','block')
+	},function(){
+	$(".weixinPic").css('display','none')
+		});
+
+});
+
+</script>
+</body>
+</html>
